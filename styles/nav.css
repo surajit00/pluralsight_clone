@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&family=Source+Sans+Pro&display=swap");
 
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: "Prompt", sans-serif;
 }
+#mainBody{
+  margin: 0;
+  padding: 0;
+}
+#mainBody *{
+  margin: 0;
+  padding: 0;
+}
 
-#container {
+#containernav {
   color: rgb(240, 240, 240);
 }
 
@@ -554,4 +562,29 @@ hr {
   font-size: 40px;
   margin-left: 30%;
   margin-top: 10px;
+}
+@media only screen and (min-width: 260px) and (max-width: 1050px){
+  #nav ul{
+    display: none;
+  }
+  #nav{
+    display: flex;
+  }
+  #nav > div:nth-child(1) {
+    width: 50%;
+    height: 80%;
+  }
+  #nav img{
+    width: 100%;
+    height: auto;
+  }
+  #nav > div:nth-child(3) > div button{
+    display: none;
+  }
+}  
+
+@media only screen and (min-width: 260px) and (max-width: 900px){
+  #signinbtn{
+    display: none;
+  }
 }
