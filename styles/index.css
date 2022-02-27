@@ -294,12 +294,12 @@ vertical-align : middle;
   }
   #separatorLine{
     box-sizing : border-box; 
-margin : 0px 709.5px; 
+margin : auto; 
 padding : 0px; 
 background-color : rgb(0, 0, 0); 
 width : 6px; 
 height : 150px; 
-border-width : 3px; 
+border-width : 4px; 
 border-style : solid; 
 border-image : linear-gradient(rgb(236, 0, 140), rgb(241, 91, 42), rgba(0, 0, 0, 0)) 1 100% / 1 / 0 stretch; 
 margin-top: 70px;
