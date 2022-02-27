@@ -55,7 +55,7 @@ let tryBtn = document.getElementById("tryForFree");
 tryBtn.addEventListener("click", tryFree);
 
 function tryFree() {
-  window.location.href = "tryForFree.html";
+  window.location.href = "free-try.html";
 }
 
 let colab = document.getElementById("howTheyDoing");
