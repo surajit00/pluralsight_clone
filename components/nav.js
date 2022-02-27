@@ -21,7 +21,7 @@ let navigation = () => {
             <p id="signinbtn">Sign in <span>&#9662</span></p>
           </div>
           <div>
-            <a href="#"><button>TRY FOR FREE</button></a>
+            <a href="free-try.html"><button>TRY FOR FREE</button></a>
           </div>
         </div>
         `)
@@ -238,7 +238,7 @@ let popuppart = () => {
                 <h4><a href="./signin.html">SIGN IN WITH</a></h4>
               </div>
               <div>
-                <a href="./signin.html">
+                <a href="/signin.html">
                   <img
                     src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png"
                     alt="">
@@ -250,7 +250,7 @@ let popuppart = () => {
 
             <div>
               <div>
-                <h4><a href="./signin.html">SIGN IN WITH</a></h4>
+                <h4><a href="/signin.html">SIGN IN WITH</a></h4>
               </div>
               <div>
                 <a href="./signin.html">

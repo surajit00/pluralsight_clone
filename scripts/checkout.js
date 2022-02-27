@@ -331,7 +331,7 @@ function confirm_pay() {
    hide_final.setAttribute("style", "display: block");
    // location.href = "/pages/index.html";
    setTimeout(() => {
-      window.location.href = "../pages/index.html";
+      window.location.href = "/signin.html";
    }, 3000)
 }
 
@@ -359,7 +359,6 @@ function signin(e) {
       console.log('all_users:', all_users);
       all_users.forEach(function (user) {
          if (username == user.mail && password == user.signup_pass) {
-
             count++;
 
          }
@@ -375,7 +374,7 @@ function signin(e) {
          log_array[0] = logg;
          localStorage.setItem(("loggedin_user"), JSON.stringify(log_array));
          setInterval(() => {
-            window.location.href = "learning.html";
+            window.location.href = "/index.html";
          }, 2000)
       } else {
          top_note.setAttribute("style", "display:block");
