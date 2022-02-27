@@ -6,7 +6,7 @@
 
 import individual_Price_2 from "../scripts/individual_Price_2.js";
 import monthly_yearly_1 from "../scripts/monthly-yearly_1.js";
-import monthly_yearly_2 from "../scripts/monthly_yearly_2.js"; 
+import monthly_yearly_2 from "../scripts/monthly_yearly_2.js";
 import fourteen_day_1 from "../scripts/fourteen_day_1.js";
 import fourteen_day_2 from "../scripts/fourteen_day_2.js";
 
@@ -71,17 +71,17 @@ for (let i = 0; i < collapsibles.length; i++) {
 let counter = 0;
 buttonGroup2.addEventListener("click", changeData);
 function changeData() {
-    if(counter%2 == 0){
+    if (counter % 2 == 0) {
         let standardPricingCardBill = document.getElementById("standardPricingCardBill");
         let premiumPricingCardBill = document.getElementById("premiumPricingCardBill");
         standardPricingCardBill.innerHTML = "then ₹ 1024.88/month, billed annually (₹ 12,299.00)";
         premiumPricingCardBill.innerHTML = "then ₹ 1533.19/month, billed annually (₹ 18,399.00)";
         counter++;
-    }else {
+    } else {
         let standardPricingCardBill = document.getElementById("standardPricingCardBill");
         let premiumPricingCardBill = document.getElementById("premiumPricingCardBill");
         standardPricingCardBill.innerHTML = "then ₹ 1,499.00/month, billed monthly";
         premiumPricingCardBill.innerHTML = "then ₹ 2,299.00/month, billed monthly";
-        counter++;    
+        counter++;
     }
 }
