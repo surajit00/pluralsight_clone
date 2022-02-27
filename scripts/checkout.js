@@ -375,7 +375,7 @@ function signin(e) {
          log_array[0] = logg;
          localStorage.setItem(("loggedin_user"), JSON.stringify(log_array));
          setInterval(() => {
-            window.location.href = "../pages/courses.html";
+            window.location.href = "learning.html";
          }, 2000)
       } else {
          top_note.setAttribute("style", "display:block");
