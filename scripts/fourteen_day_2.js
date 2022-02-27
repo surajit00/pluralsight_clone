@@ -1,6 +1,6 @@
 function fourteen_day_2() {
 
-    return(
+    return (
 
         `
         <div class="fourteenDayTrial">
