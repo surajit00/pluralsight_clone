@@ -1,5 +1,6 @@
 import footer from "../components/footer.js";
-import { navigation, searchpart, popuppart } from "../components/nav1.js"
+import { navigation, popuppart } from "../components/nav1.js"
+import searchpart from "../components/searchpart.js"
 
 let navItems = document.getElementById('navItems');
 navItems.innerHTML = popuppart()
