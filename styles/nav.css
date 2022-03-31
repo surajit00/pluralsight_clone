@@ -109,23 +109,7 @@ p {
   align-items: center;
   justify-content: right;
 }
-#coursediv {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: auto;
-  line-height: 1.5em;
-  font-size: 1em;
-  font-weight: 500;
-  color: white;
-  background-color: #181919;
-  position: relative;
-  /* z-index: 20; */
-}
 
-#coursediv p {
-  margin: 10px 10%;
-}
 #nav > div:nth-child(3) > div {
   height: 100%;
   display: flex;
