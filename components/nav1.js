@@ -24,7 +24,6 @@ let navigation = () => {
             `;
 };
 
-
 let popuppart = () => {
   return `
         <div id="platform">

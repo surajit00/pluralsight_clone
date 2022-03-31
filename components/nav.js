@@ -1,5 +1,5 @@
 let navigation = () => {
-    return (`
+  return `
     <div><a href="./index.html"><img
               src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/global/header/PS_logo.png"
               alt=""></a>
@@ -24,12 +24,11 @@ let navigation = () => {
             <a href="free-try.html"><button>TRY FOR FREE</button></a>
           </div>
         </div>
-        `)
-}
-
+        `;
+};
 
 let popuppart = () => {
-    return (`
+  return `
     <div id="platform">
         <div>
           <div class="box">
@@ -255,7 +254,7 @@ let popuppart = () => {
           </div>
         </div>
       </div>
-    `)
-}
+    `;
+};
 
 export { navigation, popuppart };

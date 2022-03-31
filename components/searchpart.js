@@ -1,5 +1,5 @@
 let searchpart = () => {
-    return `
+  return `
           <div id="searchItem">
           <i class="fa fa-search"></i>
           <input type="text" oninput="debounce(main, 800)" id="searchInput" placeholder="What do you want to learn?" />
@@ -7,6 +7,6 @@ let searchpart = () => {
       </div>
       <div id="displaysearch"></div>
           `;
-  };
+};
 
 export default searchpart;
